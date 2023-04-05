@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ChatUp</title>
+</head>
+<body>
+    <form action="http://localhost:8080/post">
+        <div>
+            Write a post: <textarea name="mytextarea" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="submit now" name="mypost">
+            <input type="reset" value="reset" name="myreset">
+        </div>
+    </form>
+    <hr>
+    <form action="http://localhost:8080/post/get">
+        <div>
+            Previous post: <textarea name="mytextarea1" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+</body>
+</HTML>
